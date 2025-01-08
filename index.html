@@ -85,6 +85,10 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
+      function GetUserAgent() {
+          return navigator.userAgent;
+      }
+
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
@@ -100,5 +104,6 @@
       };
       document.body.appendChild(script);
     </script>
+   
   </body>
 </html>
